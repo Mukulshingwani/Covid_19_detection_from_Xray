@@ -4,7 +4,7 @@
 COVID-19 is an infectious disease which has led to a dramatic loss of human life worldwide, its early detection is critical to control cases’ spreading and mortality. The actual leader diagnosis test is the Reverse transcription Polymerase chain reaction (RT-PCR)which is based on Nasopharyngeal swabs (NPSs).
 <br>
 <br>
-This paper reports our experience with detection of COVID-19 using chest X-ray images(CXR). We here try to implement \textbf{Un-Supervised, Supervised and Deep learning methods} for binary image(COVID or NON-COVID) classification on CXR images. Implementation of PCA followed by application of K-means for the unsupervised techniques. In supervised learning we explored models such as Random Forest classifier, Decision Tree classifier, GaussianBayes. For the Deep Learning approach we developed a custom pipeline which involves usage of segmentation, SOTA(State of the art)CNN models and Multi-modular Models.
+This paper reports our experience with detection of COVID-19 using chest X-ray images(CXR). We here try to implement Un-Supervised, Supervised and Deep learning methods for binary image(COVID or NON-COVID) classification on CXR images. Implementation of PCA followed by application of K-means for the unsupervised techniques. In supervised learning we explored models such as Random Forest classifier, Decision Tree classifier, GaussianBayes. For the Deep Learning approach we developed a custom pipeline which involves usage of segmentation, SOTA(State of the art)CNN models and Multi-modular Models.
 
 ## Dataset Links
 [X-ray images](https://data.mendeley.com/datasets/8h65ywd2jr/3)
