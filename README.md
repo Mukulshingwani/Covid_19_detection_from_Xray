@@ -35,7 +35,7 @@ This is the main file with all the preprocessing, EDA, various Machine learning 
    - conversion to Tensor
    - Flattening of images
 - Workflow 
-- <img src = "https://user-images.githubusercontent.com/73459839/166416746-36e164fc-8df6-4d95-835b-e461db633d14.png" width="400" height="250">
+<img src = "https://user-images.githubusercontent.com/73459839/166416746-36e164fc-8df6-4d95-835b-e461db633d14.png" width="400" height="250">
 - Unsupervised Learning Techniques
    - PCA
    - K-means clustering
