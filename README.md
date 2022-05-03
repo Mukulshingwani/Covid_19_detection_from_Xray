@@ -4,7 +4,10 @@
 COVID-19 is an infectious disease which has led to a dramatic loss of human life worldwide, its early detection is critical to control cases’ spreading and mortality. The actual leader diagnosis test is the Reverse transcription Polymerase chain reaction (RT-PCR)which is based on Nasopharyngeal swabs (NPSs).
 <br>
 <br>
-This paper reports our experience with detection of COVID-19 using chest X-ray images(CXR). We here try to implement Un-Supervised, Supervised and Deep learning methods for binary image(COVID or NON-COVID) classification on CXR images. Implementation of PCA followed by application of K-means for the unsupervised techniques. In supervised learning we explored models such as Random Forest classifier, Decision Tree classifier, GaussianBayes. For the Deep Learning approach we developed a custom pipeline which involves usage of segmentation, SOTA(State of the art)CNN models and Multi-modular Approach.
+This paper reports our experience with detection of COVID-19 using chest X-ray images(CXR). We here try to implement Un-Supervised, Supervised and Deep learning methods for binary image(COVID or NON-COVID) classification on CXR images. Implementation of PCA followed by application of K-means for the unsupervised techniques. In supervised learning we explored models such as Random Forest classifier, Decision Tree classifier, GaussianBayes. For the Deep Learning approach we developed a custom pipeline which involves usage of segmentation, SOTA(State of the art) CNN models and Multi-modular Approach.
+<br>
+<br>
+We here propose a Multimodular Pipeline which uses feature maps of 3 Models with same scratch neural net architecture based on VGG and trained on Raw CXR Images, Segmented Masked CXR Images and Segmented Inverse Masked Images and finally does classification through dense classifier layers.   
 
 ## Dataset Links
 [X-ray images](https://data.mendeley.com/datasets/8h65ywd2jr/3)
@@ -55,7 +58,7 @@ This is the main file with all the preprocessing, EDA, various Machine learning 
        - 2) inverse (complimentary) Mask
        - 3) Masked image (Mask multiplied with original CXR image)
        - 4) Inverse Masked image (Inverse Mask multiplied with original CXR image)
-- Combined Multi-Modular Approach
+- Proposed Combined Multi-Modular Approach
    - Workflow
    - <img src = "https://user-images.githubusercontent.com/73459839/166417760-8054abd5-e7f8-4733-8468-71026f98ab35.jpg" height = "600">
  
