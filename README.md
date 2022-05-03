@@ -60,7 +60,7 @@ This is the main file with all the preprocessing, EDA, various Machine learning 
        - 4) Inverse Masked image (Inverse Mask multiplied with original CXR image)
 - Proposed Combined Multi-Modular Approach
    - Workflow
-   <img src = "https://user-images.githubusercontent.com/73459839/166417760-8054abd5-e7f8-4733-8468-71026f98ab35.jpg" height = "600">
+   - <img src = "https://user-images.githubusercontent.com/73459839/166417760-8054abd5-e7f8-4733-8468-71026f98ab35.jpg" height = "600">
  
 - Comparitive Analysis
    - Various Evaluation metrices used
