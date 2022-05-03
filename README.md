@@ -16,8 +16,8 @@ We here propose a Multimodular Pipeline which uses feature maps of 3 Models with
 
 ## Built using:
 - [Scikit Learn: ](https://scikit-learn.org/stable/) used ML Library
-- [PyTorch: ](https://www.tensorflow.org/) used ML Libraries
-- [Tensorflow and Keras: ](https://pytorch.org/) used ML Libraries
+- [PyTorch: ](https://pytorch.org/) used ML Libraries
+- [Tensorflow and Keras: ](https://www.tensorflow.org/) used ML Libraries
 - [Streamlit: ](https://streamlit.io/) Javscript framework used
 - [Pandas: ](https://pandas.pydata.org/) Python data manipulation libraries
 - [Seaborn: ](https://seaborn.pydata.org/) Data visualisation library
