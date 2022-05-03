@@ -13,7 +13,8 @@ This paper reports our experience with detection of COVID-19 using chest X-ray i
 
 ## Built using:
 - [Scikit Learn: ](https://scikit-learn.org/stable/) used ML Library
-- [PyTorch: ](https://pytorch.org/) used ML Libraries
+- [PyTorch: ](https://www.tensorflow.org/) used ML Libraries
+- [Tensorflow and Keras: ](https://pytorch.org/) used ML Libraries
 - [Streamlit: ](https://streamlit.io/) Javscript framework used
 - [Pandas: ](https://pandas.pydata.org/) Python data manipulation libraries
 - [Seaborn: ](https://seaborn.pydata.org/) Data visualisation library
