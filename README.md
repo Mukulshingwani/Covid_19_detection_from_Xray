@@ -7,7 +7,7 @@ COVID-19 is an infectious disease which has led to a dramatic loss of human life
 This paper reports our experience with detection of COVID-19 using chest X-ray images(CXR). We here try to implement Un-Supervised, Supervised and Deep learning methods for binary image(COVID or NON-COVID) classification on CXR images. Implementation of PCA followed by application of K-means for the unsupervised techniques. In supervised learning we explored models such as Random Forest classifier, Decision Tree classifier, GaussianBayes. For the Deep Learning approach we developed a custom pipeline which involves usage of segmentation, SOTA(State of the art) CNN models and Multi-modular Approach.
 <br>
 <br>
-We here propose a Multimodular Pipeline which uses feature maps of 3 Models with same scratch neural net architecture based on VGG16 and trained on Raw CXR Images, Segmented Masked CXR Images and Segmented Inverse Masked Images and finally does classification through dense classifier layers.   
+We here propose a Multimodular Pipeline which uses feature maps of 3 Models with same scratch neural net architecture based on VGG and trained on Raw CXR Images, Segmented Masked CXR Images and Segmented Inverse Masked Images and finally does classification through dense classifier layers.   
 
 ## Dataset Links
 [X-ray images](https://data.mendeley.com/datasets/8h65ywd2jr/3)
@@ -35,7 +35,7 @@ This is the main file with all the preprocessing, EDA, various Machine learning 
    - conversion to Tensor
    - Flattening of images
 - Workflow 
-<img src = "https://user-images.githubusercontent.com/73459839/166416746-36e164fc-8df6-4d95-835b-e461db633d14.png" width="400" height="250">
+- <img src = "https://user-images.githubusercontent.com/73459839/166416746-36e164fc-8df6-4d95-835b-e461db633d14.png" width="400" height="250">
 - Unsupervised Learning Techniques
    - PCA
    - K-means clustering
