@@ -116,8 +116,8 @@
 					// 	}]
 					// });
 					// document.getElementById('likelihood').innerHTML = 'Likelihood of Covid +ve is ' + scores[1].toFixed(2).toString() +' Likelihood of Covid -ve is ' + scores[0].toFixed(2).toString();
-					document.getElementById('plikelihood').innerHTML = 'Likelihood of Covid +ve is : ' + scores[1].toFixed(2).toString();
-					document.getElementById('nlikelihood').innerHTML = 'Likelihood of Covid -ve is : ' + scores[0].toFixed(2).toString();
+					document.getElementById('plikelihood').innerHTML = 'Covid +ve percentage : ' + (scores[1]*100).toFixed(2).toString();
+					document.getElementById('nlikelihood').innerHTML = 'Covid -ve percentage : ' + (scores[0]*100).toFixed(2).toString();
 					// document.getElementById('nonCovidLikelihood').innerHTML = 'Likelihood of Covid - is ' + scores[0].toFixed(2).toString();
 					// chart.render();
 
