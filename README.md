@@ -72,7 +72,7 @@ This is the main file with all the preprocessing, EDA, various Machine learning 
 - Run the cells according to above mentioned pipeline
 
 ## Deployment
-<img src = "https://user-images.githubusercontent.com/73459839/166416272-5c7cace4-8276-41f2-9ecf-04bb4aba2694.jpg" width="750" height="750">
+<img src = "https://user-images.githubusercontent.com/73459839/168219554-9502a61d-31b5-4ad5-9dcc-d081eeda1658.png" width="1200" height="600">
 
 ## Team Members
 | Name  | Roll No. |
