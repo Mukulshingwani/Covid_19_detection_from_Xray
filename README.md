@@ -8,8 +8,7 @@ This paper reports our experience with detection of COVID-19 using chest X-ray i
 <br>
 <br>
 We here propose a Multimodular Pipeline which uses feature maps of 3 Models with same scratch neural net architecture based on VGG and trained on Raw CXR Images, Segmented Masked CXR Images and Segmented Inverse Masked Images and finally does classification through dense classifier layers.
-<br><br>
-Best Accuracy Acheived: **96%**
+
 
 ## Dataset Links
 [X-ray images](https://data.mendeley.com/datasets/8h65ywd2jr/3)
